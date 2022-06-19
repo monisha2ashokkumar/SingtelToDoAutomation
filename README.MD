@@ -88,7 +88,7 @@ A built-in cucumber report will be generated at 'src/reports/cucumber-reports.ht
 
 Sample screenshots are attached below:
 
-###PASS
+### PASS
 
 Report directory structure
 
@@ -102,7 +102,7 @@ Pass html report
 
 ![image](https://user-images.githubusercontent.com/31698049/174472906-83535319-4118-4101-b240-43fed1c8c7a6.png)
 
-###FAIL
+### FAIL
 
 Fail test are recorded in failedScenarios.txt file for rerun
 
@@ -120,7 +120,7 @@ Fail html report with screenshot
 
 ![image](https://user-images.githubusercontent.com/31698049/174473330-1a024073-0d2b-4b1c-a9a6-a6e5bcb50504.png)
 
-###RERUN
+### RERUN
 
 Pass console - pretty report
 
