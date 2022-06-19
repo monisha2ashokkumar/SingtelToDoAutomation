@@ -18,6 +18,7 @@ method references.
     - [FAIL](#fail)
     - [RERUN](#rerun)
   - [Rerun Failed Tests](#rerun-failed-tests)
+  - [Continuous Integration using Jenkins](#continuous-integration-using-jenkins)
 
 
 ## Features
@@ -145,3 +146,25 @@ To run failed tests, cucumber options will be used to rerun using command "-Dcuc
 Example:
 
 >mvn test "-Dcucumber.features=@src/reports/failedScenarios.txt"
+
+
+## Continuous Integration using Jenkins
+
+Continuous Integration is implemented using Jenkins and Maven. Attached sample screeshots below for reference
+
+Project build setup
+
+![image](https://user-images.githubusercontent.com/31698049/174477264-c275b89a-6966-47bf-8efa-284f6c24957f.png)
+
+
+Execution Log
+
+![image](https://user-images.githubusercontent.com/31698049/174477316-a167e79d-4cd4-4504-bdbb-f77168877410.png)
+
+
+Dashboard page with test result artifacts
+
+![image](https://user-images.githubusercontent.com/31698049/174477340-446a0b0e-f227-4a7a-87bd-c333124edbf4.png)
+
+
+
