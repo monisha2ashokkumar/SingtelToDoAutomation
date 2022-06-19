@@ -8,16 +8,16 @@ method references.
 
 # Table of contents
 
-- [Features](#features)
-   - [Tools, libraries and patterns](#tools-libraries-and-patterns)
-   - [Prerequisites](#prerequisites)
-   - [Clone repo](#clone-repo)
-   - [Steps to run in local](#steps-to-run-in-local)
-   - [Reports](#reports)
-      - [PASS](#pass)
-      - [FAIL](#fail)
-      - [RERUN](#rerun)
-   - [Rerun Failed Tests](#rerun-failed-tests)
+  - [Features](#features)
+  - [Tools, libraries and patterns](#tools-libraries-and-patterns)
+  - [Prerequisites](#prerequisites)
+  - [Clone repo](#clone-repo)
+  - [Steps to run in local](#steps-to-run-in-local)
+  - [Reports](#reports)
+    - [PASS](#pass)
+    - [FAIL](#fail)
+    - [RERUN](#rerun)
+  - [Rerun Failed Tests](#rerun-failed-tests)
 
 
 ## Features
@@ -30,7 +30,7 @@ method references.
 6. Rerun of failed tests
 7. Continuous integration using Maven
 
-### Tools, libraries and patterns
+## Tools, libraries and patterns
 
 * Cucumber-JVM: BDD framework
 * Selenium WebDriver: Web automation
@@ -44,20 +44,20 @@ method references.
 * Github: Version control
 * Customised Cucumber built-in reports: Reporting
 
-### Prerequisites
+## Prerequisites
 
 Minimum requirement to run the automation in local machine
 * Java 8
 * Maven
 * Git (optional)
 
-### Clone repo
+## Clone repo
 
 1. Open Terminal or command line, `cd` to desired folder where the source code needs to be checkout
 2. Run command
    `git clone https://github.com/monisha2ashokkumar/SingtelToDoAutomation.git` or download https://github.com/monisha2ashokkumar/SingtelToDoAutomation/archive/refs/heads/master.zip and extract it
 
-### Steps to run in local
+## Steps to run in local
 
 1. Navigate to source directory
 2. Run command
@@ -82,7 +82,7 @@ Minimum requirement to run the automation in local machine
    >
    >mvn test "-Dcucumber.filter.tags=@add and @refresh"
 
-### Reports
+## Reports
 
 A built-in cucumber report will be generated at 'src/reports/cucumber-reports.html'
 
@@ -102,7 +102,7 @@ Pass html report
 
 ![image](https://user-images.githubusercontent.com/31698049/174472906-83535319-4118-4101-b240-43fed1c8c7a6.png)
 
-####FAIL
+###FAIL
 
 Fail test are recorded in failedScenarios.txt file for rerun
 
@@ -120,7 +120,7 @@ Fail html report with screenshot
 
 ![image](https://user-images.githubusercontent.com/31698049/174473330-1a024073-0d2b-4b1c-a9a6-a6e5bcb50504.png)
 
-####RERUN
+###RERUN
 
 Pass console - pretty report
 
@@ -136,7 +136,7 @@ After successful execution, failedScenarios.txt is empty
 
 
 
-### Rerun Failed Tests
+## Rerun Failed Tests
 
 During test executions, if one or more tests are failed will be captured in 'src/reports/failedScenarios.txt'
 
