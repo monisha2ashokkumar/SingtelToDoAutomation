@@ -74,6 +74,14 @@ A built-in cucumber report will be generated at 'src/reports/cucumber-reports.ht
 
 Sample screenshot are attached below:
 
+PASS:
+
+![image](https://user-images.githubusercontent.com/31698049/174472943-6266d17b-8fe9-4fd2-8ffa-d379a5ad71d9.png)
+
+![image](https://user-images.githubusercontent.com/31698049/174472851-90296281-86ed-4b7b-a974-0c50ec528757.png)
+
+![image](https://user-images.githubusercontent.com/31698049/174472906-83535319-4118-4101-b240-43fed1c8c7a6.png)
+
 
 ### Rerun Failed Tests 
 
